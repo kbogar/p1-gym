@@ -11,20 +11,39 @@ body {
     font-weight: 500;
 }
 
-/* headings and logo */
+/* headings */
 
 h1, h2 {
     font-family: 'Anton', sans-serif;
 }
 
-/* navigation menu */
+/* header */
 
+#header {
+    border: 1px solid red;
+}
+
+#left-logo {
+    border: 1px solid blue;
+}
+
+#menu {
+    border: 1px solid green;
+}
+
+#right-button {
+    border: 1px solid orange;
+}
 
 /* section-1 */
+
+#section-1 {
+    border: 1px solid black;
+}
 
 #front-image {
     height: 600px;
     width: 100%;
     background: url(../images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg) no-repeat center center;
-    border: 2px solid red;
+    border: 1px solid yellow;
 }
