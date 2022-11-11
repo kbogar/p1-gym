@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    background-color: aqua;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Anton', sans-serif;
+}
+
+/* navigation menu */
+
+
+/* section-1 */
+
+#front-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg) no-repeat center center;
+    border: 2px solid red;
 }
