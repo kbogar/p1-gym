@@ -8,42 +8,94 @@
 
 body {
     font-family: 'Abel', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    color: #040404;
 }
 
 /* headings */
 
 h1, h2 {
     font-family: 'Anton', sans-serif;
+    color: #3d2b3a;
 }
 
 /* header */
 
-#header {
-    border: 1px solid red;
-}
 
 #left-logo {
-    border: 1px solid blue;
+    float: left;
+    font-size: 400%;
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px;
+}
+
+#left-logo > a {
+    color: #3d2b3a;
 }
 
 #menu {
-    border: 1px solid green;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    position: relative;
+    right: 40px;
 }
 
-#right-button {
-    border: 1px solid orange;
+#menu li {
+    list-style-type: none;
+    display: inline;
+    font-size: 200%;
+    margin-right: 20px;
 }
+
+#menu a {
+    text-decoration: none;
+}
+
+#sign-up {
+    float: right;
+    text-decoration: none;
+    margin-right: 30px;
+    position: relative;
+    bottom: 37px;
+}
+
 
 /* section-1 */
 
 #section-1 {
-    border: 1px solid black;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+
 }
 
 #front-image {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background: url(../images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg) no-repeat center center;
-    border: 1px solid yellow;
+    background-size: cover;
+
+    
+}
+
+#cover-text {
+    font-size: 300%;
+    letter-spacing: 3px;
+
+    background-color: rgba(244, 175, 96, .6);
+    
+    width: 400px;
+    height: 300px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    top: 30px;
+    left: 30px;
+
+    position: absolute;
 }
