@@ -46,6 +46,15 @@ body {
     color: #E0AFA0;
 }
 
+/* image section */
+
+.image {
+    background: url(../images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg) no-repeat center center;
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+}
+
 /* footer */
 
 .footer {
@@ -62,6 +71,14 @@ body {
     color: #463F3A;
     font-size: 130%;
     padding: 10px 80px;
+}
+
+/* responsivnes */
+
+@media screen and (max-width: 700px){
+    .menu a {
+        display: block;
+    }
 }
 
 
