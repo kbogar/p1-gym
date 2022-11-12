@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
 * {
     margin: 0;
@@ -7,95 +7,61 @@
 }
 
 body {
-    font-family: 'Abel', sans-serif;
-    font-weight: 400;
-    color: #040404;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #463F3A;
 }
 
 /* headings */
 
-h1, h2 {
-    font-family: 'Anton', sans-serif;
-    color: #3d2b3a;
-}
-
-/* header */
 
 
-#left-logo {
-    float: left;
-    font-size: 400%;
-    margin-left: 30px;
-    position: relative;
-    bottom: 20px;
-}
-
-#left-logo > a {
-    color: #3d2b3a;
-}
-
-#menu {
-    text-align: center;
-    letter-spacing: 3px;
-    margin-top: 30px;
-    position: relative;
-    right: 40px;
-}
-
-#menu li {
-    list-style-type: none;
-    display: inline;
-    font-size: 200%;
-    margin-right: 20px;
-}
-
-#menu a {
-    text-decoration: none;
-}
-
-#sign-up {
-    float: right;
-    text-decoration: none;
-    margin-right: 30px;
-    position: relative;
-    bottom: 37px;
-}
-
-
-/* section-1 */
-
-#section-1 {
-    height: 900px;
-    width: 100%;
-    overflow: hidden;
-
-    position: relative;
-
-}
-
-#front-image {
-    height: 900px;
-    width: 100%;
-    background: url(../images/anastase-maragos-7kEpUPB8vNk-unsplash.jpg) no-repeat center center;
-    background-size: cover;
-
-    
-}
-
-#cover-text {
-    font-size: 300%;
-    letter-spacing: 3px;
-
-    background-color: rgba(244, 175, 96, .6);
-    
-    width: 400px;
-    height: 300px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    top: 30px;
-    left: 30px;
-
+/* header and footer */
+header, footer {
     position: absolute;
+    background-color: #E0AFA0;
+    width: 100%;
 }
+
+header {
+    height: 5vh;
+}
+
+header h2 {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 30px;
+    font-size: 250%;
+    letter-spacing: 3px;
+}
+footer {
+    height: 10vh;
+    bottom: 0;
+}
+
+footer h2 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+}
+
+.menu li {
+    display: inline;
+    float: right;
+}
+
+.menu a {
+    position: relative;
+    text-decoration: none;
+    font-size: 200%;
+    margin-right: 30px;
+    top: 10px;
+    color: #463F3A;
+}
+
+
+
