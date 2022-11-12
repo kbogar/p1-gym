@@ -9,59 +9,59 @@
 body {
     font-family: 'Chakra Petch', sans-serif;
     color: #463F3A;
+    background: #BCB8B1;
 }
 
-/* headings */
+/* header */
 
-
-
-/* header and footer */
-header, footer {
-    position: absolute;
-    background-color: #E0AFA0;
-    width: 100%;
+.header {
+    background: #F4F3EE;
+    text-align: center;
+    padding: 20px;
 }
 
-header {
-    height: 5vh;
+.header h1 {
+    font-size: 40px;
 }
 
-header h2 {
-    position: absolute;
-    margin-top: 6px;
-    margin-left: 30px;
-    font-size: 250%;
-    letter-spacing: 3px;
-}
-footer {
-    height: 10vh;
-    bottom: 0;
+.header p {
+    font-size: 20px;
 }
 
-footer h2 {
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 30px;
-}
+/* Nav menu */
 
 .menu {
-    position: absolute;
-    width: 100%;
-}
-
-.menu li {
-    display: inline;
-    float: right;
+    background-color: #F4F3EE;
+    text-align: center;
 }
 
 .menu a {
-    position: relative;
-    text-decoration: none;
-    font-size: 200%;
-    margin-right: 30px;
-    top: 10px;
     color: #463F3A;
+    text-decoration: none;
+    padding: 15px 70px;
+    font-size: 30px;
 }
 
+.menu a:hover {
+    color: #E0AFA0;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #F4F3EE;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    color: #463F3A;
+    font-size: 130%;
+    padding: 10px 80px;
+}
 
 
