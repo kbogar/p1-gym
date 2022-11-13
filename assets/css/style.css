@@ -22,6 +22,13 @@ body {
 
 .header h1 {
     font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .header p {
@@ -33,6 +40,8 @@ body {
 .menu {
     background-color: #F4F3EE;
     text-align: center;
+    margin: 10px;
+    padding: 5px;
 }
 
 .menu a {
@@ -72,13 +81,14 @@ body {
 /* who we are section */
 
 .who-we-are {
-    height: 500px;
+    height: 400px;
     background-color: #F4F3EE;
+    margin: 10px;
 }
 
 .who-header {
     text-align: center;
-    margin: 20px 20px;
+    margin: 10px 20px;
 }
 
 .who-header h1 {
@@ -110,6 +120,39 @@ hr {
     width: 100%;
 }
 
+/* gmap section */
+
+.map-section {
+    position: relative;
+}
+
+.map-photo {
+    background: url(../images/sven-mieke-optBC2FxCfc-unsplash.jpg) no-repeat center center;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+}
+
+.map {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.hours {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hours li {
+    list-style: none;
+    font-size: 20px;
+    background-color: rgba(224, 175, 160, .5);
+    color: #F4F3EE;
+    padding: 5px;
+    text-align: center;
+}
 
 
 /* footer */
@@ -142,12 +185,13 @@ hr {
         margin-left: 30px;
         margin-bottom: 30px;
         bottom: 0;
-        top: 750px;
+        top: 700px;
         
     }
 
     .who-we-are {
         text-align: center;
+        height: 650px;
     }
 
     .left-solutions, .right-experience {
@@ -157,4 +201,14 @@ hr {
     }
 }
 
+@media screen and (max-width: 470px){
+    .hours {
+        width: auto;
+        height: auto;
+        position: unset;
+    }
+
+    
+    
+}
 
