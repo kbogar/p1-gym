@@ -41,6 +41,7 @@ body {
     text-align: center;
     margin: 10px;
     padding: 5px;
+    border-radius: 4px;
 }
 
 .menu a {
@@ -79,14 +80,16 @@ body {
     background-color: rgba(224, 175, 160, .5);
     color: #F4F3EE;
     padding: 5px;
+    border-radius: 4px;
 }
 
 /* who we are section */
 
 .who-we-are {
-    height: 400px;
+    height: 350px;
     background-color: #F4F3EE;
     margin: 10px;
+    border-radius: 4px;
 }
 
 .who-header {
@@ -208,6 +211,7 @@ hr {
     padding: 20px;
     color: #F4F3EE;
     background-color: rgba(224, 175, 160, .5);
+    border-radius: 4px;
 }
 
 .signup-form > h2 {
