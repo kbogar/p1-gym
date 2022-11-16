@@ -3,7 +3,7 @@ Pixel Fitness is a gym site for fitness enthusiasts. It is a place where motivat
 
 You can see the live link here.
 
-screenshot of diff displays
+![](/docs/responsive-mockup.png)
 # Features
 
 ## Existing Features
