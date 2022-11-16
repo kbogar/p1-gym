@@ -139,12 +139,6 @@ hr {
     background-size: cover;
 }
 
-.map {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
 .hours {
     position: absolute;
     top: 10px;

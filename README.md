@@ -46,12 +46,16 @@ screenshot sign up
 
 ## Validator Testing
 # HTML
-- No errors were found when passing through the official W3C validator
+- No errors were found when passing through the official W3C validator.
 
 link or screenshot
-- No errors were found when passing through the official (Jigsaw) validator
+- No errors were found when passing through the official (Jigsaw) validator.
 
 link or screenshot
+## Accessibility
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+
+screenshot
 ## Unfixed Bugs
 - No unfixed bugs
 ## Deployment
@@ -67,9 +71,6 @@ The live link can be found here -
 - Instructions on how to implement a gallery and a sign up form was taken from the Love Running project.
 - All the icons on the project were taken from Font Awesome.
 ### Media
-- The photos used for the gallery page were taken from Pexels
-- The photos used on home page and sign up page were taken from Unsplash
-
-
-
-
+- The photos used for the gallery page were taken from Pexels.
+- The photos used on home page and sign up page were taken from Unsplash.
+- The favicon icon is made by me, from favicon.cc generator.
