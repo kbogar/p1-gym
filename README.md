@@ -47,24 +47,34 @@ You can see the live link here.
 ## Validator Testing
 # HTML
 - No errors were found when passing through the official W3C validator.
-# CSS
-link or screenshot
-- No errors were found when passing through the official (Jigsaw) validator.
 
-link or screenshot
+## Home Page
+![](/docs/htmlchecker-home.png)
+## Gallery Page
+![](/docs/htmlchecker-gallery.png)
+## Sign Up Page
+![](/docs/htmlchecker-signup.png)
+# CSS
+- No errors were found when passing through the official (Jigsaw) validator.
+## Whole site
+![](/docs/csschecker.png)
+
 ## Accessibility
 - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-screenshot
+![](/docs/lighthousetest.PNG)
 ## Unfixed Bugs
 - No unfixed bugs
 ## Deployment
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- Navigate to the repository in GitHub
+- Select the Settings tab
+- On the left navigation menu, under Code and Automation, select Pages
+- Select Deploy from branch under source
+- Select the main branch
+- After the pages reload, the link to the deployed page will show up at the top.
 
-The live link can be found here - 
+You can see the GitHub repository by clicking here.
 ## Credits
 
 ### Content
