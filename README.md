@@ -16,30 +16,30 @@ You can see the live link here.
 ### The landing page image
 - This section includes a photograph with a catchy text overlay slogan to attract new members.
 
-screenshot landing page image
+![](/docs/landing-page.png)
 ### Who We Are Section
 - The who we are section will allow the user to see benefits of joining Pixel Fitness, and this should encourage the user to sign up for a membership.
 
-screenshot who we are section
+![](/docs/whoweare.png)
 ### Map Section
-- This section provides the user with a google maps location and the opening hours of Pixel Fitness.
+- This section provides the user with an opening hours of Pixel Fitness.
 
-screenshot of map section
+![](/docs/mapsection.png)
 ### Footer Section
 - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
 - The footer includes a contact phone number also.
 - This section is valuable to the user as it encourages them to keep connected via social media.
 
-screenshot footer
+![](/docs/footer.png)
 ### Gallery
 - The gallery will provide the user with supporting images to see how Pixel Fitness looks like.
 - This section is valuable to the user as they will be able to see the gym inside with all the equipments included.
 
-screenshot gallery
+![](/docs/gallery.png)
 ### Sign Up Page
 - This page will allow the user to get signed up to Pixel Fitness. The user will be asked to submit their full name, email address, phone number and any other questions related to Pixel Fitness membership.
 
-screenshot sign up
+![](/docs/signup.png)
 ### Testing
 - The page works on different browsers: Microsoft Edge, Firefox, Chrome.
 - The project is responsive, tested on all standard screen sizes, I used developer tools on the browsers.
@@ -47,7 +47,7 @@ screenshot sign up
 ## Validator Testing
 # HTML
 - No errors were found when passing through the official W3C validator.
-
+# CSS
 link or screenshot
 - No errors were found when passing through the official (Jigsaw) validator.
 
