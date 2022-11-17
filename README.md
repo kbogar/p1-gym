@@ -1,7 +1,7 @@
 # Pixel Fitness
 Pixel Fitness is a gym site for fitness enthusiasts. It is a place where motivated, ambitious people work out to reach their fitness goals. With this site I hope it will attract new members.
 
-You can see the live link here.
+You can see the live link [here](https://kbogar.github.io/p1-gym/)
 
 ![](/docs/responsive-mockup.png)
 # Features
@@ -74,13 +74,13 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - Select the main branch
 - After the pages reload, the link to the deployed page will show up at the top.
 
-You can see the GitHub repository by clicking here.
+You can see the GitHub repository by clicking [here](https://github.com/kbogar/p1-gym)
 ## Credits
 
 ### Content
-- Instructions on how to implement a gallery and a sign up form was taken from the Love Running project.
-- All the icons on the project were taken from Font Awesome.
+- Instructions on how to implement a gallery and a sign up form was taken from the CI Love Running project.
+- All the icons on the project were taken from [Font Awesome](https://fontawesome.com/)
 ### Media
-- The photos used for the gallery page were taken from Pexels.
-- The photos used on home page and sign up page were taken from Unsplash.
-- The favicon icon is made by me, from favicon.cc generator.
+- The photos used for the gallery page were taken from [Pexels](https://www.pexels.com/)
+- The photos used on home page and sign up page were taken from [Unsplash](https://unsplash.com/)
+- The favicon icon is made by me, from [favicon.cc generator](https://www.favicon.cc/)
